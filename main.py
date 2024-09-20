@@ -103,7 +103,7 @@ E-mail automático com Python.
 
 ''')
 
-nova_msg.sender.set("EMAIL REMETENTE")  # Configurar o remetente (conta icloud)
-nova_msg.make(new=k.to_recipient, with_properties={k.address: "EMAIL DESTINATARIO"}) # Configurar destinatario
+nova_msg.sender.set("EMAIL REMETENTE @icloud.com")  # Configurar o remetente (conta icloud)
+nova_msg.make(new=k.to_recipient, with_properties={k.address: "EMAIL DESTINATARIO @..."}) # Configurar destinatario
 
 nova_msg.send()
