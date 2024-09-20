@@ -3,10 +3,10 @@
 ## "pip3 install mplcyberpunk" e "pip3 install yfinance" no terminal.
 
 # Importação de bibliotecas
-import yfinance as yf
-import pandas as pd
-import matplotlib.pyplot as plt
-import mplcyberpunk 
+import yfinance as yf #cotações yahoo finance
+import pandas as pd #manipulação e análise de dados
+import matplotlib.pyplot as plt #grafico
+import mplcyberpunk #estilo do grafico 
 
 
 # 1. Pegar cotações últimos 5 dias
